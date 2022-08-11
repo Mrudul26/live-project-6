@@ -1,0 +1,146 @@
+/* Write styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Orbitron:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 7%;
+    height: 10%;
+  }
+
+  h4 {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    margin: 13px 20px;
+    font-family: Montserrat;
+  }
+
+  h4.home{
+    position: relative;
+    left: -365px;
+    top: 36px;
+    text-decoration: underline;
+  }
+  h4.collection{
+    position: relative;
+    left: -245px;
+    top: 18px;
+  }
+
+  h4.shop{
+    position: relative;
+    left: -80px;
+    top: -1px;
+  }
+
+  h4.about{
+    position: relative;
+    left: 40px;
+    top: -20px;
+  }
+
+  h4.contact{
+    position: relative;
+    left: 147px;
+    top: -39px;
+  }
+
+  img.hm1{
+    position: relative;
+    right: 285px;
+    top: 30px;
+  }
+  img.dp1{
+    position: relative;
+    right: 216px;
+    top: 2px;
+  }
+  img.search1{
+    position: relative;
+    right: 144px;
+    top: -26px;
+  }
+
+  .bottompart{
+    margin-left: 0px;
+  }
+
+
+  #navMid{
+    display: inline;
+  }
+  #imgMain{
+    position: absolute;
+    float: right;
+    right:-125px;
+    top:150px;
+    width: 800px;
+  }
+
+  #midWholePart13{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    position: relative;
+    bottom: -250px;
+    left:30px;
+  }
+
+  .midWholePart13Parts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text{
+    width: 210px;
+    font-family: Montserrat 100;
+    margin-left: 10px;
+  }
+  li{
+    font-family: Montserrat;
+    width: 560px;
+  }
+
+  #midWholePart11{
+    position: relative;
+    left: 50px;
+    top: 150px;
+  }
+  h1#monstera{
+    font-size: 100px;
+  }
+
+  #midWholePart12{
+    position: relative;
+    left: 50px;
+    top:170px;
+    
+  }
+  #midWholePart121> div >h1{
+    margin-left: 16px;
+  }
+  #midWholePart122>img{
+    margin-left: -37px;
+  }
+  #midWholePart121{
+    color: white;
+    background-color: rgb(17, 68, 17);
+    border-radius: 27px;
+    width: 225px;
+    height: 52px;
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
